@@ -13,6 +13,8 @@ public class Main {
         UserPage page = Consumer.getUserPage(target_url);
         System.out.println(page);
 
+        System.out.println("----------------------------------");
+
         PostUser pu = new PostUser();
         pu.name = "google";
         pu.job = "hunter";
